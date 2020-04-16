@@ -1,5 +1,8 @@
 {
   "name": "reciper-app",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "react-router-dom": "^5.1.2"
+  }
 }
