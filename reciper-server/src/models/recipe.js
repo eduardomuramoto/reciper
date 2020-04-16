@@ -2,14 +2,14 @@ import mongoose, { Schema } from 'mongoose';
 import timestamps from 'mongoose-timestamp';
 import { composeWithMongoose } from 'graphql-compose-mongoose';
 
-export const TaskSchema = new Schema(
+export const RecipeSchema = new Schema(
     {
         user: {
             type: Schema.Types.ObjectId,
             ref: 'User',
             required: true,
         },
-        task: {
+        recipe: {
             type: String,
             trim: true,
             required: true,
@@ -21,13 +21,13 @@ export const TaskSchema = new Schema(
         },
     },
     {
-        collection: 'tasks',
+        collection: 'recipes',
     }
 );
 
-TaskSchema.plugin(timestamps);
+RecipeSchema.plugin(timestamps);
 
-TaskSchema.index({ createdAt: 1, updatedAt: 1 });
+RecipeSchema.index({ createdAt: 1, updatedAt: 1 });
 
-export const Task = mongoose.model('Task', TaskSchema);
-export const TaskTC = composeWithMongoose(Task);
+export const Recipe = mongoose.model('Recipe', RecipeSchema);
+export const RecipeTC = composeWithMongoose(Recipe);

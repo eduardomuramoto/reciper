@@ -5,16 +5,16 @@ import db from '../utils/db'; // eslint-disable-line no-unused-vars
 const schemaComposer = new SchemaComposer();
 
 import { UserQuery, UserMutation } from './user';
-import { TaskQuery, TaskMutation } from './task';
+import { RecipeQuery, RecipeMutation } from './recipe';
 
 schemaComposer.Query.addFields({
     ...UserQuery,
-    ...TaskQuery,
+    ...RecipeQuery,
 });
 
 schemaComposer.Mutation.addFields({
     ...UserMutation,
-    ...TaskMutation,
+    ...RecipeMutation,
 });
 
 export default schemaComposer.buildSchema();
