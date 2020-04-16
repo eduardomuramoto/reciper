@@ -1,0 +1,15 @@
+{
+  "name": "reciper-server",
+  "version": "1.0.0",
+  "description": "Recipe book matched to your preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cook",
+    "book"
+  ],
+  "author": "Eduardo Muramoto and Yasuhiro Katayama",
+  "license": "ISC"
+}
