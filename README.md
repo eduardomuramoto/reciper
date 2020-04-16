@@ -4,8 +4,16 @@ Recipe book matched to your preferences
 
 ## Getting Started
 
-Front-end: React
-Back-end: Node
+Front-end
+
+
+```
+
+### Installing
+
+
+```
+Back-end
 
 ```
 
@@ -14,9 +22,26 @@ Back-end: Node
 
 ```
 
-## Deployment
+## Tech
 
-...
+Front-end: React
+
+
+```
+
+>React
+
+
+```
+Back-end: Node.JS
+
+```
+
+>Node.JS
+>Express
+
+
+```
 
 
 ## Authors
