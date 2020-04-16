@@ -4,7 +4,7 @@ Recipe book matched to your preferences
 
 ## Getting Started
 
-Front-end
+### Front-end
 
 
 ```
@@ -13,7 +13,7 @@ Front-end
 
 
 ```
-Back-end
+### Back-end
 
 ```
 
@@ -24,7 +24,7 @@ Back-end
 
 ## Tech
 
-Front-end: React
+### Front-end: React
 
 
 ```
@@ -33,7 +33,7 @@ Front-end: React
 
 
 ```
-Back-end: Node.JS
+### Back-end: Node.JS
 
 ```
 
